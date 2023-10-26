@@ -9,7 +9,8 @@ import './App.css';
 // import EventBinding from './components/EventBinding';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
-import NestingComponents from './components/NestingComponents';
+// import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
      {/* <EventBinding /> */}
      {/* <ConditionalRenderingClass /> */}
      {/* <ConditionalRenderingFunctional connected={true}/> */}
-     <NestingComponents />
+     {/* <NestingComponents /> */}
+     <MethodsAsPropsParent />
     </div>
   );
 }

@@ -18,7 +18,8 @@ import './App.css';
 // import ControlledForms from './components/ControlledForms';
 // import UncontrolledForm from './components/UncontrolledForm ';
 // import SearchBar from './components/SearchBar';
-import ControlledFormHooks from './components/ControlledFormHooks';
+// import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
      {/* <ControlledForms /> */}
      {/* <UncontrolledForm /> */}
      {/* <SearchBar /> */}
-     <ControlledFormHooks />
+     {/* <ControlledFormHooks /> */}
+     <UseStateWithArrays />
     </div>
   );
 }

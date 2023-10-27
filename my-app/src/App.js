@@ -13,7 +13,8 @@ import './App.css';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
-import LifeCycleCDU from './components/LifeCycleCDU';
+// import LifeCycleCDU from './components/LifeCycleCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
      {/* <MethodsAsPropsParent /> */}
      {/* <RenderingLists /> */}
      {/* <LifeCyclesCDM /> */}
-     <LifeCycleCDU />
+     {/* <LifeCycleCDU /> */}
+     <LifeCyclesCWU />
     </div>
   );
 }

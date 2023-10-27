@@ -42,6 +42,7 @@ export class ControlledForms extends Component {
     render() {
         return (
             <div>
+                <h2>Please fill out the form below:</h2>
                 <form onSubmit={this.handleSubmit}>
                     <div>
                         <label htmlFor="id-name">Your Name:</label>
